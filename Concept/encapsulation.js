@@ -1,7 +1,10 @@
 // Keep Data Private
 
 // Privacy property / Privacy method
-// 数据私有是让我们能够面向接口编程而不是实现编程的基础。这是可以帮助我们构建强壮软件的一个重要概念。
+/** 
+ * 数据私有是让我们能够面向接口编程而不是实现编程的基础。这是可以帮助我们构建强壮软件的一个重要概念。
+ * 除Privileged Methods、Symbols、WeakMap外，./Terms/Composition.js的例子中也可。
+ */
 
 // Privacy with Privileged Methods
 class SimpleDate {
