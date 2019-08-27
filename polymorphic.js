@@ -1,20 +1,20 @@
 class Person {
-  constructor (name, age) {
+  constructor(name, age) {
     this.name = name
     this.age = age
   }
 
-  showInfo () {
-    console.log(this.name,this.age)
+  showInfo() {
+    console.log(this.name, this.age)
   }
 }
 
 class Employee extends Person {
-  constructor (name, age, sex) {
+  constructor(name, age, sex) {
     super(name, age)
     this.sex = sex
   }
-  showInfo () {
+  showInfo() {
     console.log(this.name, this.age, this.sex)
   }
 }

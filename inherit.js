@@ -1,22 +1,22 @@
 class Animal {
-  constructor (age, color) {
+  constructor(age, color) {
     this.age = age
     this.color = color
   }
 
-  drink () {
+  drink() {
     console.log('water')
   }
 }
 
 class Cat extends Animal {
-  sound () {
+  sound() {
     console.log('miao~')
   }
 }
 
 class dog extends Animal {
-  sound () {
+  sound() {
     console.log('wang~')
   }
 }
