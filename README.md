@@ -2,15 +2,15 @@
 
 use OOP in ES6
 
-Concept：
+Concept&Practise：
 
 <ul>
   <li>对象(Object): 对象代表一个实体的基本构建块。</li>
   <li>类(Class): 类是对象的蓝图。</li>
   <li>抽象化(Abstraction): 抽象代表现实世界中实体的行为。</li>
-  <li><span style="color: red">封装(Encapsulation)</span>: 封装是将数据绑定在一起，并隐藏他们外部世界的机制。</li>
-  <li><span style="color: red">继承(Inheritance)</span>: 继承是从现有的机制作出新的类。</li>
-  <li><span style="color: red">多态性(Polymorphism)</span>: 定义的机制来以不同的形式存在。</li>
+  <li><span style="color: red;">封装(Encapsulation)</span>: 封装是将数据绑定在一起，并隐藏他们外部世界的机制。(把数据和操作数据的方法绑定起来，对数据的访问只能通过已定义的接口。)</li>
+  <li><span style="color: red;">继承(Inheritance)</span>: 继承是从现有的机制作出新的类。(是一个类（称为子类、子接口）继承另外的一个类（称为父类、父接口）的功能，并可以增加它自己的新功能的能力。)</li>
+  <li><span style="color: red;">多态性(Polymorphism)</span>: 定义的机制来以不同的形式存在。(由继承而产生的相关的不同的类，其对象对同消息做出不同的响应。)</li>
 </ul>
 
 <p>类作为面向对象的基础，着重理解一下类的概念和关系。</p>
@@ -39,22 +39,9 @@ Terms(类与类、类与接口):
 </ul>
 <p>类之间的强弱关系：依赖<关联<聚合<组合<泛化(继承)</p>
 
-Practise:
-
-<ul>
-  <li>
-    封装(encapsulation.js):把数据和操作数据的方法绑定起来，对数据的访问只能通过已定义的接口。
-  </li>
-  <li>
-    继承(inherit.js):是一个类（称为子类、子接口）继承另外的一个类（称为父类、父接口）的功能，并可以增加它自己的新功能的能力。
-  </li>
-  <li>
-    多态性(polymorphic.js):由继承而产生的相关的不同的类，其对象对同消息做出不同的响应。
-  </li>
-</ul>
-
 Principle:
-面向对象开发原则：高内聚(Cohesion)、低耦合(Coupling)。多聚合、少继承
+
+<p>面向对象开发原则：高内聚(Cohesion)、低耦合(Coupling)。多聚合、少继承</p>
 
 <p>前五个比较重要,SOLDI 指的就是前五个。此内容详见：《敏捷软件开发：原则、模式与实践》</p>
 
