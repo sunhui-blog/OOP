@@ -1,5 +1,8 @@
 // Keep Data Private
 
+// Privacy property / Privacy method
+// 数据私有是让我们能够面向接口编程而不是实现编程的基础。这是可以帮助我们构建强壮软件的一个重要概念。
+
 // Privacy with Privileged Methods
 class SimpleDate {
   constructor(year) {
@@ -56,3 +59,30 @@ const SimpleDate = (function () {
 const date = new SimpleDate('2019')
 date.getYear()  // '2019'
 date._years  // undefined
+
+// privileged methods
+class Person {
+  constructor() {
+    this.talk = function () {
+      console.log('hello')
+    }
+  }
+}
+const Liming = new A()
+Liming.talk() // 'hello'
+
+// Privacy methods
+class Person {
+  constructor() {
+    const talk = function () {
+      console.log('hi~')
+    }
+
+    this.callMethod = function () {
+      talk()
+    }
+  }
+}
+
+const Liming = new A()
+Liming.callMethod() // 'hi~'
